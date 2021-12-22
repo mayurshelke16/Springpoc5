@@ -1,6 +1,5 @@
 package com.neosoft.model;
 
-import java.text.DecimalFormat;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

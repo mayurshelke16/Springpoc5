@@ -34,7 +34,7 @@ public class EmpserviceImp implements EmpService {
 		 emp.setOops_concept(employee.getOops_concept());
 		 emp.setPrograming_language(employee.getPrograming_language());
 		 emp.setVersion_control(employee.getVersion_control());
-	emp.setDatabase_concept(employee.getDatabase_concept());
+		 emp.setDatabase_concept(employee.getDatabase_concept());
 		 emp.setBasic_concept(employee.getBasic_concept());
 		 emp.setCoding(employee.getCoding());
 		 emp.setAdvance_concept(employee.getAdvance_concept());
@@ -54,11 +54,7 @@ public class EmpserviceImp implements EmpService {
 				 emp.setGrade("B(Bad)");
 			 }
 			 
-		 
-		 
-		 
-		  
-		 return empRepos.save(emp); }
+		 		 return empRepos.save(emp); 
+		 		 }
 	 
-
 }
