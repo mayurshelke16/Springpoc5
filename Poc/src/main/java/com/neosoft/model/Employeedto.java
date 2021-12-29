@@ -157,16 +157,16 @@ public class Employeedto {
 	{
 		Employee employee =  new Employee();
 		
-	employee.setCommunication(communication);
-	employee.setBasic_of_web_devlopment(basic_of_web_devlopment);
-	employee.setOops_concept(getOops_concept());
-	employee.setPrograming_language(programing_language);
-	employee.setVersion_control(version_control);
-	employee.setDatabase_concept(getDatabase_concept());
-	employee.setBasic_concept(basic_concept);
-	employee.setCoding(coding);
-	employee.setAdvance_concept(advance_concept);
-		employee.setAvg(avg);
+		/*
+		 * employee.setCommunication(communication);
+		 * employee.setBasic_of_web_devlopment(basic_of_web_devlopment);
+		 * employee.setOops_concept(getOops_concept());
+		 * employee.setPrograming_language(programing_language);
+		 * employee.setVersion_control(version_control);
+		 * employee.setDatabase_concept(getDatabase_concept());
+		 * employee.setBasic_concept(basic_concept); employee.setCoding(coding);
+		 * employee.setAdvance_concept(advance_concept);
+		 */	employee.setAvg(avg);
 		employee.setGrade(grade);
 		return employee;
 	}
