@@ -68,10 +68,4 @@ public class Controller {
 		
 	}
 	
-	@GetMapping("/{id}")
-	public ResponseEntity<List<Expereince>> getID(@PathVariable long E_id){
-		List<Expereince> list= empService.geDetaiByID(E_id);
-		return new ResponseEntity<List<Expereince>>(list,HttpStatus.OK);
-		
-	}
 }

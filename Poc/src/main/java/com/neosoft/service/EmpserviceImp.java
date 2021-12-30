@@ -93,13 +93,6 @@ public class EmpserviceImp implements EmpService {
 	}
 
 
-	@Override
-	public List<Expereince> geDetaiByID(long E_id) {
-		List<Expereince> list=(List<Expereince>) expereinceRepo.findById(E_id).get();
-		
-		return list;
-		//return list.stream().filter(experience->experience.getE_id().equals(E_id)).collect(Collectors.toList()); 
 
-	}
 	 
 }

@@ -16,7 +16,7 @@ public interface EmpService {
 
 	List<Expereince> getDetailsOfexpeince();
 
-	List<Expereince> geDetaiByID(long E_id);
+	
 
 	
 }
